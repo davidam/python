@@ -1,12 +1,12 @@
 #!/usr/bin/python
 
-class Animal(object):
+class Animal():
     def __init__(self):
-        self.estoyVivo = True
+        self.isVivo = True
 
-    def vivo():
-        return self.estoyVivo 
-
+    def vivo(self):
+        print("Está vivo")
+        return self.isVivo
 
 class Gato(Animal):
     def __init__(self):
@@ -29,4 +29,4 @@ g = Gato()
 print(g.ronronear())
 print(g.maullar())
 print(g.grunir())
-print(g.vivo())
+print(g.isVivo())
