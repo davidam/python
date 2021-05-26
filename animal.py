@@ -8,9 +8,8 @@ class Animal():
         print("Está vivo")
         return self.isVivo
 
+
 class Gato(Animal):
-    def __init__(self):
-        sonido = ""
 
     def ronronear(self):
         sonido = "rrrr"
@@ -29,4 +28,4 @@ g = Gato()
 print(g.ronronear())
 print(g.maullar())
 print(g.grunir())
-print(g.isVivo())
+print(g.vivo())
