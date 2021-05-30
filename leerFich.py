@@ -7,7 +7,7 @@ f3 = open("files/lineas16-20.txt", "w")
 contLineas = 0
 
 for linea in f:
-    if contLineas < 16:
+    if contLineas < 15:
         f2.write(linea)
     elif contLineas < 20:
         f3.write(linea)
